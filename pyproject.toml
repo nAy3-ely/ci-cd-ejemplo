@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ci-cd-ejemplo"
+version = "1.0.0"
+description = "Ejemplo de proyecto con CI/CD usando GitHub Actions"
+requires-python = ">=3.10"
+authors = [
+    { name="Nayhely" }
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
